@@ -1,0 +1,22 @@
+{
+  "name": "tina_tailwind",
+  "version": "1.0.0",
+  "description": "Tailwind CSS is integrated into the `create-next-app` CLI, which supports TypeScript and JavaScript, as well as the App Router (`app/`) and the pages directory `pages/`.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tinacms dev -c \"next dev\"",
+    "build": "tinacms build && next build",
+    "start": "tinacms build && next start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tinacms/cli": "^1.5.20",
+    "next": "^13.4.7",
+    "tinacms": "^1.5.11",
+    "react": "^18",
+    "react-dom": "^18"
+  }
+}
